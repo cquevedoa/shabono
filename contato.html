@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Contato - Shabono</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Roboto:300,400,700&display=swap"
+          rel="stylesheet">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+      </head>
+<body>
+
+    <header class="site-header">
+        <div class="contenedor contenido-header">
+          <div class="barra">
+            <a href="/">
+              <img src="images/logo_w.png" width="200px" alt="logotipo">
+            </a>
+    
+            <nav class="navegador">
+                <a href="index.html">Início</a>
+                <a href="nos.html">Sobre Nos</a>
+                <a href="loja.html">Loja</a>
+                <a href="contato.html">Contato</a>
+              </nav>
+          </div>
+    
+          
+        </div> <!-- contenedor -->
+      </header>
+
+      <h1 class="fw-300 centrar-texto">Contato</h1>
+      <img src="images/nos.jpg" width="100%" alt="imagen nosotros">
+
+  
+
+      <main class="contenedor seccion">
+
+        <main class="contenedor seccion contenido-centrado">
+
+          <h2 class="fw-300 centrar-texto">Entre em contato conosco</h2>
+      
+          <form class="contacto" action="">
+          
+            <fieldset>
+              <legend>Informação Pessoal</legend>
+          
+              <label for="nombre">Nome</label>
+              <input type="text" id="nombre" placeholder="Seu nome completo" required>
+          
+              <label for="correo">Email</label>
+              <input type="email" id="correo" placeholder="Seu e-mail" required>
+          
+              <label for="telefono">Telefone</label>
+              <input type="tel" id="telefono" placeholder="Seu número de telefone" required>
+          
+              <label for="consulta">Sua Mensagem</label>
+              <textarea id="mensaje">Oí, </textarea>
+          
+            </fieldset>
+          
+            <fieldset>
+              <legend>Contato</legend>
+          
+              <p>Como você deseja ser contatado</p>
+          
+              <div class="forma-contacto">
+                <label for="telefono">Telefone</label>
+                <input type="radio" name="contacto" value="telefono" id="telefono">
+              
+                <label for="email">E-mail</label>
+                <input type="radio" name="contacto" value="email" id="email">
+              </div>
+      
+              <p>Se você escolheu telefone, escolha a data e hora</p>
+          
+              <label for="fecha">Data</label>
+              <input type="date" id="fecha">
+              <label for="hora">Hora</label>
+              <input type="time" id="hora" min="09:00" max="18:00">
+          
+            </fieldset>
+          
+          
+          
+            <input type="submit" value="Enviar" class="boton-verde boton">
+          
+          </form>
+      
+      
+        </main>
+        
+      <hr>
+  <footer class="site-footer seccion">
+    <div class="contenedor contenedor-footer">
+      <div class="social">
+        <a href="https://instagram.com/shabonoac" title="Instagram" target="_blank">
+            <i class="fab fa-instagram" ></i></a>
+        <a href="https://facebook.com/shabonoac" title="Facebook" target="_blank">
+            <i class="fab fa-facebook-f" ></i></a>
+        <a href="mailto:shabonoac@gmail.com"  title="Email" target="_blank">
+            <i class="far fa-envelope"></i></a>
+        <a href="#">
+            <i class="far fa-map"> </i> Santo André, SP</a>
+        </div>
+      <p class="copyright">&copy Shabono, 2020. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
